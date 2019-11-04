@@ -14,7 +14,7 @@ const Products = () => {
 				<Product
 					key={product.id}
 					product={product}
-					addItem={products.addItem}
+					addItem={addItem}
 				/>
 			))}
 		</div>
